@@ -1,0 +1,27 @@
+plugins {
+	id 'org.springframework.boot' version '2.5.4'
+	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+	id 'java'
+}
+
+group = 'com.ArthurNeyman'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '11'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'junit:junit:4.13.1'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+	implementation 'org.springframework.cloud:spring-cloud-starter-openfeign:3.0.3'
+	implementation 'org.springframework.cloud:spring-cloud-starter-netflix-ribbon:2.2.9.RELEASE'
+	implementation 'org.springframework.cloud:spring-cloud-starter-loadbalancer:3.0.3'
+}
+
+test {
+	useJUnitPlatform()
+}
