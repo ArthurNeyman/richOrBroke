@@ -2,7 +2,7 @@
 # Инструкция по запуску  c Docker
 
 - Устновить git  (https://git-scm.com/book/ru/v2/%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5-%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0-Git)
-- Установить докер  Windows(https://docs.docker.com/desktop/windows/install/) / Ubuntu(https://docs.docker.com/engine/install/ubuntu/)
+- Установить докер  (https://docs.docker.com/desktop/windows/install/)
 - В консоли выполнить команду  : git clone https://github.com/ArthurNeyman/richOrBroke 
 - В консоли выполнить команду  : cd richOrBroke
 - В консоли выполнить команду  : docker build -t rich-or-broke .
